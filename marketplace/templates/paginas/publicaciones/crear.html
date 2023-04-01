@@ -1,0 +1,18 @@
+{% extends 'paginas/base.html' %} {% block titulo %} Crear una publicación {% endblock %} {% block contenido %}
+<div class="card">
+    <div class="card-header">
+        Crear una publicación
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Información de la publicación</h4>
+
+        {% include 'paginas/publicaciones/form.html' %}
+
+
+    </div>
+    <div class="card-footer text-muted">
+        Footer
+    </div>
+</div>
+
+{% endblock %}
