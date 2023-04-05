@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import Publicacion
 from .forms import publicacionForm
 
-# Create your views here.
+# Create your views here.           
 
 def inicio(request):
     return render(request, 'paginas/inicio.html')

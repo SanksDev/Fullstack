@@ -9,7 +9,7 @@ class Publicacion(models.Model):
     descrip=models.CharField(max_length=500, verbose_name="Descripción")
 
 
-    def __str__(self):
+    def __str__(self):  
         fila = "Título: " + self.titulo + " - " + "Descripción: " + self.descrip
         return fila
     
